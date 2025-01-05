@@ -1,0 +1,51 @@
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+}
+body{
+  background: #172031;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: #fff;
+  width: 500px;
+}
+.title{
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.fields{
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.fields>label{
+  font-size: 20px;
+}
+
+.btn{
+  background-color: #172031;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: 45%;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.btn.print {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+}
