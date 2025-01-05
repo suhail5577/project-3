@@ -1,4 +1,0 @@
-fqunction updateCard(){
-	alert(Hello);
-}
-
